@@ -1,0 +1,21 @@
+ul > li {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 720px;
+  background-color: rgb(253, 253, 253);
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin: 10px 10px;
+  font-family: Lato, sans-serif;
+  font-size: 28px;
+}
+
+.checkedItem {
+  background-color: rgb(230, 70, 70) !important;
+  color: rgb(189, 219, 21);
+}
+
+input[type="checkbox"] {
+  height: 30px;
+}
