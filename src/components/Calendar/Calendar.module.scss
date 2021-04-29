@@ -1,0 +1,14 @@
+.calendar {
+  display: flex;
+  flex-direction: row;
+  display: grid;
+  grid-template-rows: repeat(6, minmax(40px, 1fr));
+  grid-gap: 5px;
+  height: 70vh;
+  background-color: rgb(240, 238, 238);
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px black solid;
+}

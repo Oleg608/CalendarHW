@@ -1,4 +1,12 @@
-import { Component } from "react";
+import Calendar from "./components/Calendar";
+
+const App = () => {
+  return <Calendar currentDate={new Date()} />;
+};
+
+export default App;
+
+/*
 import UserList from "./components/UserList";
 import SelectedUsers from "./components/SelectedUsers";
 
@@ -51,7 +59,7 @@ class App extends Component {
   }
 }
 export default App;
-
+*/
 /*
 import LoginForm from "./components/LoginForm";
 
